@@ -11,38 +11,21 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #f4623a;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #f4623a;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
-  --bs-dark: #212529;
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary: #5C3E6C;
+  --bs-purple: #AE6CC0;
+  --bs-orange: #E5A059;
+  --bs-teal: #AAEAD3;
+
+  --bs-danger: #dc3545;
+
+  --bs-primary-rgb: 92, 62, 108;
   --bs-secondary-rgb: 108, 117, 125;
+
+  --bs-purple-rgb: 174, 108, 192;
+  --bs-orange-rgb: 229, 160, 89;
+  --bs-teal-rgb: 170, 234, 211;
+  
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -53,13 +36,16 @@
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
+  
   --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
+  
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
@@ -832,6 +818,11 @@ progress {
   margin-left: 91.66666667%;
 }
 
+.g-0{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .g-0,
 .gx-0 {
   --bs-gutter-x: 0;
@@ -1341,6 +1332,11 @@ progress {
   .row-cols-lg-3 > * {
     flex: 0 0 auto;
     width: 33.3333333333%;
+  }
+
+  .col-lg-4 {
+    padding-left: 1%;
+    padding-right: 1%;
   }
 
   .row-cols-lg-4 > * {
@@ -11450,7 +11446,7 @@ header.masthead h1, header.masthead .h1 {
   font-weight: 600;
   text-transform: uppercase;
 }
-#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name {
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name .project-date, #portfolio .container-sm .portfolio-box .portfolio-box-caption .project-name .project-date, #portfolio .container-md .portfolio-box .portfolio-box-caption .project-name .project-date, #portfolio .container-lg .portfolio-box .portfolio-box-caption .project-name .project-date, #portfolio .container-xl .portfolio-box .portfolio-box-caption .project-name .project-date, #portfolio .container-xxl .portfolio-box .portfolio-box-caption .project-name .project-date {
   font-size: 1.2rem;
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
